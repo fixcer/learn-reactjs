@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const SearchBar = () => {
+const Search = () => {
   // Tao mot bien tmpTerm de moi khi nguoi dung go thi cap nhat bien nay
   // Sau 500ms ma nguoi dung khong go them thi no se thanh term va query
   // Neu trong 500ms co thay doi thi dat lai bo dem
@@ -75,4 +75,4 @@ const SearchBar = () => {
   );
 };
 
-export default SearchBar;
+export default Search;
