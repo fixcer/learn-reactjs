@@ -14,3 +14,5 @@ useState()
 	
 Refs cung cấp cho chúng ta cách access đến các DOM nodes hoặc React elements được tạo ra trong method render
 	
+Thay đổi state trong reducers sẽ khiến chokhông phát hiện được sự thay đổi trạng thái => không hoạt động
+
