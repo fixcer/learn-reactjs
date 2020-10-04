@@ -17,3 +17,6 @@ Refs cung cấp cho chúng ta cách access đến các DOM nodes hoặc React el
 Thay đổi state trong reducers sẽ khiến chokhông phát hiện được sự thay đổi trạng thái => không hoạt động
 
 react-route-dom: từ khóa exact được đặt để loại bỏ nó ra khỏi so khớp
+
+PUT cập nhật toàn bộ thuộc tính
+PATCH cật nhật một số thuộc tính
