@@ -12,7 +12,8 @@ useState()
 	useState() áp dụng replacing thay vì merging như bên class component
 	Initial state callback chỉ thực thi 1 lần đầu
 	
-Refs cung cấp cho chúng ta cách access đến các DOM nodes hoặc React elements được tạo ra trong method render
+Refs cung cấp cho chúng ta cách access đến các DOM nodes hoặc React elements được tạo ra trong method render. Trả về một ref object và sẽ được giữ trong suốt vòng đời của component
 	
 Thay đổi state trong reducers sẽ khiến chokhông phát hiện được sự thay đổi trạng thái => không hoạt động
 
+react-route-dom: từ khóa exact được đặt để loại bỏ nó ra khỏi so khớp
