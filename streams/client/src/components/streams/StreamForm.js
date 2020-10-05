@@ -1,4 +1,5 @@
 import React from 'react';
+import faker from 'faker';
 import { Field, reduxForm } from 'redux-form';
 
 const renderError = ({ error, touched }) => {
@@ -14,6 +15,8 @@ const renderError = ({ error, touched }) => {
 const renderInput = (props) => {
   const { input, label, meta } = props;
   const className = `field ${meta.error && meta.touched ? 'error' : ''}`;
+
+  input.value = faker.name.findName();
 
   return (
     <div className={className}>
