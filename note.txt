@@ -20,3 +20,6 @@ react-route-dom: từ khóa exact được đặt để loại bỏ nó ra khỏ
 
 PUT cập nhật toàn bộ thuộc tính
 PATCH cật nhật một số thuộc tính
+
+ReactDom.createPortal tạo modal
+onDismiss dùng để bắt sự kiện click ra ngoài, nút x modal
